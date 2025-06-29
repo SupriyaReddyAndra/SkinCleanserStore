@@ -1,0 +1,245 @@
+*{
+margin:0;
+box-sizing: border-box;
+ font-family: "Quicksand", sans-serif;
+  
+}
+
+#one{
+    background-image: url(./Assests/skin-cleanser-template-hero-img-bg.jpg);
+    background-size:cover;
+    height:100vh;
+    overflow: hidden;
+}
+#nav{
+    height:13vh;
+    border-bottom: 0.5px solid rgb(255,255,255,0.2);
+    display:flex;
+
+}
+#nav_one{
+    flex-basis: 20%;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+#nav_one a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#nav_two{
+    flex-basis: 65%;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+}
+#nav_two svg{
+    height:52%;
+    width:120px;
+}
+#nav_three{
+    flex-basis: 15%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+#nav_three svg{
+    fill:white;
+    height: 16px;
+    width: 16px;
+}
+   
+#price{
+        color:white;
+        font-size: 14px;
+        font-weight: 900;
+    }
+#cart{
+    display: flex;
+    gap: 12px;
+}
+#one_title{
+    height: calc(100vh-13vh);
+    padding-left: 200px;
+    gap:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 150px;
+    
+}
+#welcome::selection,#best_skin::selection,#shop_btn::selection{
+    color: black;
+    background-color: #fa2d64;
+}
+#welcome{
+
+    font-size:14px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+} 
+#best_skin{ 
+    font-size: 72px;
+    color: white;
+    font-weight: 400;
+}
+#shop_btn{
+    width:120px;
+    height:42px;
+    color:white;
+    border:1px solid white;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: 900;
+    transition: 700ms;
+}
+#shop_btn:hover{
+    background-color: #fff;
+    color:#fa2d64
+}
+.selected{
+    background-color: #fa2d64 !important;
+    color:#f8f8ff !important;
+}
+/* Page 2 */
+
+#two{
+   
+    
+    padding-top:60px;
+    gap:20px;
+    width:100%;
+    padding-bottom: 60px;
+
+
+}
+#two_contents{
+    
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+#two_contents_one{
+    height:14vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+#two_contents_one p{
+    font-size: 40px;
+    font-family: "Quicksand",sans-serif;
+}
+#two_contents_one button{
+   height:50px;
+   width:140px;
+   color:#fa2d64;
+   border:0.2px #fa2d64 solid;
+   background-color: white;
+   font-family:"Quicksand",sans-serif ;
+   font-weight: 550;
+}
+#two_contents_one button:hover{
+    background-color: #fa2d64;
+}
+#two_contents_two,#two_contents_three{
+    
+    width:70%;
+   margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
+    
+
+}
+article img{
+    height:400px;
+    width:250px;
+    gap:10px;
+    font-family: "Quicksand",sans-serif;
+
+}
+.two_contents_p1{
+    color:#646467;
+}
+article h4{
+    color:#646467;
+}
+/* Page 3 */
+#three{
+    width:100vw;
+    border:2px solid black;
+   padding: 150px 150px;
+    background-color: #f8f8ff;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#three_contents_one{
+    width:50%;
+    margin:0px 100px;
+    
+}
+#three_contents_two{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap:30px;
+}
+#three_contents_two_one{
+    
+    font-size: 20px;
+    font-family: "Quicksand",sans-serif;
+    text-align: start;
+
+    line-height: 52px;
+}
+#three_contents_two_two{
+    font-size: 14px;
+    color: #646467;
+    text-align: start;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+}
+#three_contents_two_three button{
+    height:50px;
+    
+    width:140px;
+    color:#fa2d64;
+   border:0.2px #fa2d64 solid;
+   background-color: white;
+   font-family:"Quicksand",sans-serif ;
+   font-weight: 500;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+}
+.add_btn{
+    border: 0.5px #fa2d64 solid;
+    height: 40px;
+    width:260px;
+    color: #fa2d64;
+    background-color:white;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+}
+    
+
+    
+
+
